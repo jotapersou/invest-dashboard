@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=2.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Simulador de Rendimento</title> 
+</head>
+<body><main class="card">
+  <h1>Simulador de Investimentos</h1>
+
+  <section>
+    <h2>Aportes</h2>
+
+    <label>Aporte inicial</label>
+    <input type="number" id="aporteInicial" placeholder="R$ 1500">
+
+    <label>Aporte mensal</label>
+    <input type="number" id="aporteMensal" placeholder="R$ 200">
+  </section>
+
+  <section>
+    <h2>Tempo e rendimento</h2>
+
+    <label>Tempo (meses)</label>
+    <input type="number" id="tempoInvestido" placeholder="12">
+
+    <label>Rendimento mensal (%)</label>
+    <input type="number" id="rendimentoMes" placeholder="1.2">
+  </section>
+
+  <button id="botaoSimular">Simular</button>
+
+  <p id="textoResultado"></p>
+  <canvas id="graficoRendimento"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="mainService.js"></script>
+
+</main>
+    <script src="mainService.js"></script>
+</body>
+</html>

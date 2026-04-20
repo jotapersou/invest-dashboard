@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1a0933, #3b0a6b);
+  color: #fff;
+}
+
+/* Card central */
+.card {
+  max-width: 420px;
+  margin: 60px auto;
+  background: #1f1f2e;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* Títulos */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #a78bfa;
+}
+
+/* Labels */
+label {
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+  background: #2a2a40;
+  color: white;
+  font-size: 14px;
+}
+
+/* Botão */
+button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(90deg, #7c3aed, #a855f7);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+/* Resultado */
+#textoResultado {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #22c55e;
+}
