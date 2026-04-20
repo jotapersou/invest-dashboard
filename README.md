@@ -34,10 +34,7 @@ This application allows users to simulate financial growth over time using compo
 
 1. Clone the repository:
 2. git clone https://github.com/jotapersou/invest-dashboard.git
-
-3. 
 2. Open the project folder
-
 3. Run the `index.html` file in your browser
 
 ---
